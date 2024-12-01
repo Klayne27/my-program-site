@@ -1,0 +1,68 @@
+h1 {
+    color: rgb(150, 91, 206);
+    position: fixed;
+    margin-top: 930px;
+    font-family: Andale Mono, monospace;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 820px;
+    background: linear-gradient(45deg, #e2acf3, rgb(150, 150, 241))
+}
+.calculator {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #e2acf3;
+}
+.calculator input {
+    width: 239px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: right;
+    padding: 5px;
+    font-family: 'Digital Numbers', sans-serif;
+}
+.calculator button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(150, 150, 241);
+}
+.calculator button:hover {
+    background-color: rgb(117, 117, 241);
+}
+.calculator button:active {
+    background-color: rgb(84, 84, 241);
+}
+
+.calculator .clear {
+    background-color: rgb(241, 150, 150);
+    width: 45%;
+    border-radius: 9px;
+}
+.calculator .clear:hover {
+    background-color: rgb(241, 117, 117);
+}
+.calculator .clear:active {
+    background-color: rgb(241, 84, 84);
+}
+
+.calculator .delete {
+    background-color: rgb(247, 203, 146);
+    width: 45%;
+    border-radius: 9px;
+}
+.calculator .delete:hover {
+    background-color: rgb(247, 170, 113);
+}
+.calculator .delete:active {
+    background-color: rgb(247, 137, 80);
+}
